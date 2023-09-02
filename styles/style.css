@@ -51,6 +51,7 @@ ol {
   display: flex;
   flex-direction: column;
   max-width: 711px;
+  max-height: 456px;
 }
 
 .search-form {
