@@ -16,7 +16,7 @@ html {
   block-size: 100vh;
   margin: auto;
   color: #fff;
-  font-family: "Fira Sans Condensed", sans-serif;
+  font-family: Fira Sans Condensed, Arial, sans-serif;
   font-size: 18px;
   background-color: #1b1919;
 }
@@ -183,7 +183,7 @@ fieldset {
 }
 
 .search-form__label {
-  display: inline-flex;
+  display: flex;
   align-items: center;
   width: fit-content;
 }
