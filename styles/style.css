@@ -16,7 +16,7 @@ html {
   block-size: 100vh;
   margin: auto;
   color: #fff;
-  font-family: Fira Sans Condensed, Arial, sans-serif;
+  font-family: "Fira Sans Condensed", Arial, sans-serif;
   font-size: 18px;
   background-color: #1b1919;
 }
@@ -33,6 +33,8 @@ blockquote,
 fieldset {
   margin: 0;
   padding: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
 }
 
 ul,
@@ -51,7 +53,6 @@ ol {
   display: flex;
   justify-content: space-between;
   align-items: end;
-  min-height: 54px;
 }
 
 .content__list {
@@ -60,10 +61,6 @@ ol {
   position: relative;
   margin-top: 26px;
   min-width: 399px;
-}
-
-.content__details {
-  max-height: 534px;
 }
 
 .result {
@@ -103,7 +100,7 @@ li:not(:last-child) {
 
 .search-form__fieldset-title {
   color: #fff;
-  font-family: Fira Sans Condensed, Arial, sans-serif;
+  font-family: "Fira Sans Condensed", Arial, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -113,7 +110,7 @@ li:not(:last-child) {
 .title,
 .content__accent {
   color: #fff;
-  font-family: Oswald, Arial, sans-serif;
+  font-family: "Oswald", Arial, sans-serif;
   font-size: 75px;
   font-style: normal;
   font-weight: 700;
@@ -122,8 +119,9 @@ li:not(:last-child) {
 }
 
 .title {
-  max-height: 210px;
   padding-top: 2px;
+  margin-block-start: 2px;
+  margin-block-end: -2px;
 }
 
 .content__accent {
@@ -137,7 +135,7 @@ li:not(:last-child) {
 }
 
 .content__video-card-title {
-  font-family: Oswald, Arial, sans-serif;
+  font-family: "Oswald", Arial, sans-serif;
   font-size: 30px;
   font-style: normal;
   font-weight: 700;
@@ -150,7 +148,7 @@ li:not(:last-child) {
 
 .content__video-card-description {
   color: #fff;
-  font-family: Fira Sans Condensed, Arial, sans-serif;
+  font-family: "Fira Sans Condensed", Arial, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -203,7 +201,7 @@ fieldset {
   background-color: transparent;
   color: #fff;
   text-align: center;
-  font-family: Fira Sans Condensed, Arial, sans-serif;
+  font-family: "Fira Sans Condensed", Arial, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -235,7 +233,7 @@ fieldset {
   appearance: none;
   background-color: transparent;
   color: #fff;
-  font-family: Fira Sans Condensed, Arial, sans-serif;
+  font-family: "Fira Sans Condensed", Arial, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -255,7 +253,7 @@ input[type="text"]:focus {
 
 .search-form__label-text {
   color: #fff;
-  font-family: Fira Sans Condensed, Arial, sans-serif;
+  font-family: "Fira Sans Condensed", Arial, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
